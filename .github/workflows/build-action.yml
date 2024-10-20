@@ -2,6 +2,7 @@ name: Build o1js
 on:
   push:
     branches:
+      - perf/*
       - perf-recording
       - main
       - develop
